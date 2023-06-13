@@ -113,6 +113,10 @@
 		91BE429C1CBF7EC000F6B062 /* UIPageControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BE429B1CBF7EC000F6B062 /* UIPageControl+Rx.swift */; };
 		91BE429D1CBF7EC000F6B062 /* UIPageControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BE429B1CBF7EC000F6B062 /* UIPageControl+Rx.swift */; };
 		91BE429F1CBF7F3D00F6B062 /* UIPageControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BE429B1CBF7EC000F6B062 /* UIPageControl+Rx.swift */; };
+		97B4E4C42A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4E4C32A3852D400A09560 /* RxDelegateProxyCrashFix.swift */; };
+		97B4E4C52A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4E4C32A3852D400A09560 /* RxDelegateProxyCrashFix.swift */; };
+		97B4E4C62A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4E4C32A3852D400A09560 /* RxDelegateProxyCrashFix.swift */; };
+		97B4E4C72A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4E4C32A3852D400A09560 /* RxDelegateProxyCrashFix.swift */; };
 		9BA1CBD31C0F7D550044B50A /* UIActivityIndicatorView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1CBD11C0F7C0A0044B50A /* UIActivityIndicatorView+Rx.swift */; };
 		9BA1CBFD1C0F84A10044B50A /* UIActivityIndicatorView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1CBD11C0F7C0A0044B50A /* UIActivityIndicatorView+Rx.swift */; };
 		9BA1CBFE1C0F84C40044B50A /* UIActivityIndicatorView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1CBD11C0F7C0A0044B50A /* UIActivityIndicatorView+Rx.swift */; };
@@ -1797,6 +1801,7 @@
 		88D98F2D1CE7549A00D50457 /* RxTabBarDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RxTabBarDelegateProxy.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		914FCD661CCDB82E0058B304 /* UIPageControl+RxTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+RxTest.swift"; sourceTree = "<group>"; };
 		91BE429B1CBF7EC000F6B062 /* UIPageControl+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Rx.swift"; sourceTree = "<group>"; };
+		97B4E4C32A3852D400A09560 /* RxDelegateProxyCrashFix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxDelegateProxyCrashFix.swift; sourceTree = "<group>"; };
 		9BA1CBD11C0F7C0A0044B50A /* UIActivityIndicatorView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Rx.swift"; sourceTree = "<group>"; };
 		A111CE961B91C97C00D0DCEE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A520FFF61F0D258E00573734 /* RxPickerViewDataSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxPickerViewDataSourceType.swift; sourceTree = "<group>"; };
@@ -3115,6 +3120,7 @@
 				D9080ACD1EA05A16002B433B /* RxNavigationControllerDelegateProxy.swift */,
 				4613457B1D9A4AEE001ABAF2 /* RxWebViewDelegateProxy.swift */,
 				A520FFFB1F0D291500573734 /* RxPickerViewDataSourceProxy.swift */,
+				97B4E4C32A3852D400A09560 /* RxDelegateProxyCrashFix.swift */,
 			);
 			path = Proxies;
 			sourceTree = "<group>";
@@ -3940,6 +3946,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -4203,6 +4210,7 @@
 				C89AB1F21DAAC3350065FBE6 /* SharedSequence+Operators.swift in Sources */,
 				9BA1CBD31C0F7D550044B50A /* UIActivityIndicatorView+Rx.swift in Sources */,
 				842A5A2C1C357F92003568D5 /* NSTextStorage+Rx.swift in Sources */,
+				97B4E4C42A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */,
 				C88254241B8A752B00B02D69 /* RxTextViewDelegateProxy.swift in Sources */,
 				C89AB2401DAAC3A60065FBE6 /* _RXDelegateProxy.m in Sources */,
 				C89AB2061DAAC3350065FBE6 /* KVORepresentable+Swift.swift in Sources */,
@@ -4295,6 +4303,7 @@
 				C8D132451C42D15E00B59FFF /* SectionedViewDataSourceType.swift in Sources */,
 				C80D33901B91EF9E0014629D /* Observable+Bind.swift in Sources */,
 				C89AB1EB1DAAC3350065FBE6 /* SharedSequence+Operators+arity.swift in Sources */,
+				97B4E4C52A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5475,6 +5484,7 @@
 				C89AB1D51DAAC3350065FBE6 /* ControlProperty+Driver.swift in Sources */,
 				C88F76841CE5341700D5A014 /* TextInput.swift in Sources */,
 				C89AB2151DAAC3350065FBE6 /* NotificationCenter+Rx.swift in Sources */,
+				97B4E4C72A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */,
 				C89AB20D1DAAC3350065FBE6 /* KVORepresentable.swift in Sources */,
 				C8F0C03B1BBBFBB9001B112F /* UISearchBar+Rx.swift in Sources */,
 				C89AB2431DAAC3A60065FBE6 /* _RXDelegateProxy.m in Sources */,
@@ -5591,6 +5601,7 @@
 				C8D970D01F5324D90058F2FE /* Signal+Subscription.swift in Sources */,
 				C89AB2141DAAC3350065FBE6 /* NotificationCenter+Rx.swift in Sources */,
 				91BE429D1CBF7EC000F6B062 /* UIPageControl+Rx.swift in Sources */,
+				97B4E4C62A3852D400A09560 /* RxDelegateProxyCrashFix.swift in Sources */,
 				C89AB2521DAAC3A60065FBE6 /* _RXObjCRuntime.m in Sources */,
 				D203C4FE1BB9C53700D02D00 /* RxTableViewDataSourceProxy.swift in Sources */,
 				D203C5001BB9C53700D02D00 /* RxTextViewDelegateProxy.swift in Sources */,
